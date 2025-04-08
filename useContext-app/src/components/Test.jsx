@@ -6,7 +6,7 @@ export default function Test() {
   let {mode} = useContext(TextContext)
   return (
     <div className={mode}>
-      <h1>This is Test component</h1>
+      <h1>This is Test</h1>
       <Main/>
     </div>
   )
